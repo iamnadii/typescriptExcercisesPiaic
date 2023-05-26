@@ -1,0 +1,8 @@
+const arr: string[] = [];
+
+arr.push('Lahore');
+arr.push('Karachi');
+arr.push('Multan');
+arr.push('Peshawar');
+
+console.log(arr);

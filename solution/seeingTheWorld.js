@@ -1,0 +1,14 @@
+"use strict";
+const favLocations = ['Dubari', 'USA', 'Iran', 'Australia'];
+console.log('-----------In Original Order-----------');
+console.log(favLocations);
+const alphabeticOrder = [...favLocations];
+console.log('-----------In Alphabetic Order-----------');
+console.log(alphabeticOrder.sort());
+console.log('-----------In Original Order-----------');
+console.log(favLocations);
+const reverseAlphabeticOrder = [...alphabeticOrder];
+console.log('-----------In Alphabetic (reverse) Order-----------');
+console.log(reverseAlphabeticOrder.reverse());
+console.log('-----------In Original Order-----------');
+console.log(favLocations);
